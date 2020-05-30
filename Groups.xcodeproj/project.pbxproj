@@ -13,6 +13,17 @@
 		9E53FD4E247F897700954EC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E53FD4D247F897700954EC2 /* Assets.xcassets */; };
 		9E53FD51247F897700954EC2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E53FD50247F897700954EC2 /* Preview Assets.xcassets */; };
 		9E53FD54247F897700954EC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E53FD52247F897700954EC2 /* LaunchScreen.storyboard */; };
+		9E53FD5C247F8C7A00954EC2 /* DividerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E53FD5B247F8C7A00954EC2 /* DividerView.swift */; };
+		9E53FD5E247F8E7400954EC2 /* ContextMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E53FD5D247F8E7400954EC2 /* ContextMenu.swift */; };
+		9E53FD82247FE42C00954EC2 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E53FD81247FE42C00954EC2 /* ProgressView.swift */; };
+		9E53FD84247FFD7600954EC2 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E53FD83247FFD7600954EC2 /* FormView.swift */; };
+		9E54CEF3248111010068B7FE /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E54CEF2248111010068B7FE /* StepperView.swift */; };
+		9E54CEF524813BEE0068B7FE /* Animation1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E54CEF424813BEE0068B7FE /* Animation1.swift */; };
+		9E54CEF724813CE60068B7FE /* Animation2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E54CEF624813CE60068B7FE /* Animation2.swift */; };
+		9E54CEF924813D950068B7FE /* Animation3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E54CEF824813D950068B7FE /* Animation3.swift */; };
+		9E54CEFB24813F7B0068B7FE /* Animation4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E54CEFA24813F7B0068B7FE /* Animation4.swift */; };
+		9E54CEFD248141A30068B7FE /* Animation5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E54CEFC248141A30068B7FE /* Animation5.swift */; };
+		9E54CEFF248143150068B7FE /* Animation6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E54CEFE248143150068B7FE /* Animation6.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +35,17 @@
 		9E53FD50247F897700954EC2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9E53FD53247F897700954EC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E53FD55247F897700954EC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E53FD5B247F8C7A00954EC2 /* DividerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividerView.swift; sourceTree = "<group>"; };
+		9E53FD5D247F8E7400954EC2 /* ContextMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenu.swift; sourceTree = "<group>"; };
+		9E53FD81247FE42C00954EC2 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		9E53FD83247FFD7600954EC2 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		9E54CEF2248111010068B7FE /* StepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperView.swift; sourceTree = "<group>"; };
+		9E54CEF424813BEE0068B7FE /* Animation1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation1.swift; sourceTree = "<group>"; };
+		9E54CEF624813CE60068B7FE /* Animation2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation2.swift; sourceTree = "<group>"; };
+		9E54CEF824813D950068B7FE /* Animation3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation3.swift; sourceTree = "<group>"; };
+		9E54CEFA24813F7B0068B7FE /* Animation4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation4.swift; sourceTree = "<group>"; };
+		9E54CEFC248141A30068B7FE /* Animation5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation5.swift; sourceTree = "<group>"; };
+		9E54CEFE248143150068B7FE /* Animation6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation6.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +81,17 @@
 				9E53FD47247F897300954EC2 /* AppDelegate.swift */,
 				9E53FD49247F897300954EC2 /* SceneDelegate.swift */,
 				9E53FD4B247F897300954EC2 /* ContentView.swift */,
+				9E54CEFE248143150068B7FE /* Animation6.swift */,
+				9E54CEFC248141A30068B7FE /* Animation5.swift */,
+				9E54CEFA24813F7B0068B7FE /* Animation4.swift */,
+				9E54CEF824813D950068B7FE /* Animation3.swift */,
+				9E54CEF424813BEE0068B7FE /* Animation1.swift */,
+				9E54CEF624813CE60068B7FE /* Animation2.swift */,
+				9E53FD83247FFD7600954EC2 /* FormView.swift */,
+				9E54CEF2248111010068B7FE /* StepperView.swift */,
+				9E53FD81247FE42C00954EC2 /* ProgressView.swift */,
+				9E53FD5D247F8E7400954EC2 /* ContextMenu.swift */,
+				9E53FD5B247F8C7A00954EC2 /* DividerView.swift */,
 				9E53FD4D247F897700954EC2 /* Assets.xcassets */,
 				9E53FD52247F897700954EC2 /* LaunchScreen.storyboard */,
 				9E53FD55247F897700954EC2 /* Info.plist */,
@@ -146,9 +179,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E53FD5E247F8E7400954EC2 /* ContextMenu.swift in Sources */,
 				9E53FD48247F897300954EC2 /* AppDelegate.swift in Sources */,
+				9E54CEF924813D950068B7FE /* Animation3.swift in Sources */,
+				9E54CEFB24813F7B0068B7FE /* Animation4.swift in Sources */,
+				9E54CEF3248111010068B7FE /* StepperView.swift in Sources */,
+				9E54CEF524813BEE0068B7FE /* Animation1.swift in Sources */,
+				9E53FD84247FFD7600954EC2 /* FormView.swift in Sources */,
 				9E53FD4A247F897300954EC2 /* SceneDelegate.swift in Sources */,
+				9E53FD5C247F8C7A00954EC2 /* DividerView.swift in Sources */,
+				9E54CEFF248143150068B7FE /* Animation6.swift in Sources */,
+				9E54CEF724813CE60068B7FE /* Animation2.swift in Sources */,
 				9E53FD4C247F897300954EC2 /* ContentView.swift in Sources */,
+				9E53FD82247FE42C00954EC2 /* ProgressView.swift in Sources */,
+				9E54CEFD248141A30068B7FE /* Animation5.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
