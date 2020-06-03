@@ -9,22 +9,16 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var enabled = false
+    
     var body: some View{
-        VStack{
-            Button("Click me"){
-                withAnimation {
-                    self.enabled.toggle()
+        NavigationView{
+            List(developers){ developer in
+                NavigationLink(destination: Text(developer.name)) {
+                     DeveloperRowView(developer: developer)
                 }
-                
+               
             }
-            if enabled {
-                Rectangle()
-                    .fill(Color.red)
-                    .frame(width: 180, height: 180)
-//                    .transition(.scale)
-                    .transition(.asymmetric(insertion: .scale, removal: .opacity))
-            }
+        .navigationBarTitle("Developers")
         }
         
     }

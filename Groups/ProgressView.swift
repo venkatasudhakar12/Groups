@@ -9,9 +9,9 @@
 import SwiftUI
 
 struct ProgressView: View {
-     @State private var progress:CGFloat = 0.1
+    @State private var progress:CGFloat = 0.1
     var body: some View {
-              VStack{
+        VStack{
             HStack {
                 Text("0%")
                 Slider(value: $progress)
@@ -25,15 +25,15 @@ struct ProgressView: View {
                     .trim(from: 0, to: progress)
                     .stroke(Color.red, lineWidth: 20)
                     .rotationEffect(Angle(degrees: -90))
-                .overlay(
-                Text("\(Int(progress*100))%")
-                    .font(.system(size: 50))
+                    .overlay(
+                        Text("\(Int(progress*100))%")
+                            .font(.system(size: 50))
                 )
             }.padding()
-            .frame(height:300)
+                .frame(height:300)
             Spacer()
         }
-
+        
     }
 }
 
